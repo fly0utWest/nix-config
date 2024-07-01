@@ -1,5 +1,8 @@
-{
+{ pkgs, ... }: {
+
   boot = {
+    kernelPackages = pkgs.linuxPackages_zen;
+
     loader = {
       efi = {
         canTouchEfiVariables = true;
@@ -8,11 +11,13 @@
         enable = true;
       };
     };
+
     initrd.luks.devices = {
-      cryptroot = {
+      crypted = {
         device = "/dev/disk/by-uuid/ec8d8abe-b4d0-4745-8e6e-e7864004f76d";
         preLVM = true;
       };
     };
   };
+
 }

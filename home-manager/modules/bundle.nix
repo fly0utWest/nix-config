@@ -6,6 +6,8 @@
     ./qt-gtk.nix
 
     ./wms/hyprland.nix
+    ./wms/hypridle.nix
+    ./wms/hyprlock.nix
     ./wms/waybar.nix
     ./wms/mako.nix
   ];

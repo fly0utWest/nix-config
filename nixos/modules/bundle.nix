@@ -7,6 +7,7 @@
     ./xserver.nix
     ./nm.nix
     ./hyprland.nix
+    ./hyprlock.nix
     ./bluetooth.nix
     ./polkit.nix
     ./greetd.nix

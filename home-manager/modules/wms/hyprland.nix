@@ -14,7 +14,7 @@
         "XDG_SESSION_TYPE,wayland"
         "XDG_SESSION_DESKTOP,Hyprland"
         "XCURSOR_SIZE,24"
-        "QT_QPA_PLATFORM,wayland"
+        "QT_QPA_PLATFORM,wayland;xcb"
         "XDG_SCREENSHOTS_DIR,~/screens"
       ];
 

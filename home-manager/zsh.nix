@@ -15,6 +15,7 @@
       se = "sudoedit";
       ff = "fastfetch";
       rebuild-switch = "sudo nixos-rebuild switch --flake ${flakeDir}";
+      rebuild-boot = "sudo nixos-rebuild boot --flake ${flakeDir}";
       home-switch = "home-manager switch --flake ${flakeDir}";
     };
 

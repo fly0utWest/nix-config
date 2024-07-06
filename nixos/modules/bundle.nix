@@ -10,6 +10,7 @@
     ./hyprlock.nix
     ./bluetooth.nix
     ./polkit.nix
+    ./solaar.nix
     ./greetd.nix
   ];
 }

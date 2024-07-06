@@ -51,7 +51,6 @@
     ntfs3g
     yt-dlp
     brightnessctl
-    swww
     openssl
     lazygit
     bluez
@@ -110,6 +109,7 @@
     libsForQt5.qt5ct
     papirus-nord
     vim
+    docker-compose
   ];
 
   fonts.packages = with pkgs; [

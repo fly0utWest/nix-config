@@ -10,9 +10,14 @@
       url = "github:nix-community/home-manager/release-24.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    solaar = {
+      url = "https://flakehub.com/f/Svenum/Solaar-Flake/*.tar.gz"; 
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = { self, nixpkgs, nixpkgs-unstable, home-manager, ... }@inputs:
+  outputs = { self, nixpkgs, nixpkgs-unstable, home-manager, solaar, ... }@inputs:
 
     let
       system = "x86_64-linux";
@@ -28,6 +33,7 @@
         inherit inputs system;
       };
       modules = [
+         solaar.nixosModules.default
         ./nixos/configuration.nix
       ];
     };

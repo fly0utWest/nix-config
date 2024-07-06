@@ -6,8 +6,10 @@
     settings = {
       "$mainMod" = "SUPER";
 
-      monitor = "eDP-1, 1920x1200@60, auto, 1";
-      # monitor = "HDMI-A-0, 1920x1080@74.95, 0x1200, 1";
+      monitor = [
+        "eDP-1, 1920x1200@60, auto, 1"
+        "HDMI-A-1, 1920x1080@60, auto, 1"
+      ];
 
       env = [
         "XDG_CURRENT_DESKTOP,Hyprland"
@@ -115,12 +117,11 @@
       ];
 
       exec-once = [
-        "swww init"
-        "swww img ~/Downloads/Wallpapers/retro-anime.jpg"
         "waybar"
         "mako"
         "udiskie"
         "nm-applet"
+        "solaar -w hide"
         "blueman-applet"
         "wl-paste --type text --watch cliphist store"
         "wl-paste --type image --watch cliphist store"

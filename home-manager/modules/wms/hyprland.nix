@@ -51,7 +51,7 @@
       };
 
       cursor = {
-        no_warps = true;	
+        no_warps = false;	
       };
 
       decoration = {

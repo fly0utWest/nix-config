@@ -15,7 +15,7 @@
     rofi
     wofi
     mpv
-    discord
+    vesktop
     gparted
     zoom-us
     pcmanfm-qt

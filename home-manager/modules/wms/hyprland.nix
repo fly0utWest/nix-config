@@ -123,6 +123,7 @@
         "nm-applet"
         "solaar -w hide"
         "blueman-applet"
+	"blueman-tray"
         "wl-paste --type text --watch cliphist store"
         "wl-paste --type image --watch cliphist store"
         "lxqt-policykit-agent"

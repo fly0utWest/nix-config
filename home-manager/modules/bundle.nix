@@ -11,5 +11,6 @@
     ./wms/hyprpaper.nix
     ./wms/waybar.nix
     ./wms/mako.nix
+    ./wms/udiskie.nix
   ];
 }

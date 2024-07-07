@@ -63,7 +63,6 @@
     screenkey
     mako
     gromit-mpx
-    udiskie
     networkmanagerapplet
     blueman
     pavucontrol

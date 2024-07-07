@@ -11,6 +11,7 @@
     ./bluetooth.nix
     ./polkit.nix
     ./solaar.nix
+    ./gvfs.nix
     ./greetd.nix
   ];
 }

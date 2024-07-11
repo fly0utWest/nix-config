@@ -55,6 +55,7 @@
     lazygit
     bluez
     bluez-tools
+    openvpn
 
     # GUI utils
     feh

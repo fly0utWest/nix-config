@@ -13,5 +13,6 @@
     ./solaar.nix
     ./gvfs.nix
     ./greetd.nix
+    ./systemd-resolved.nix
   ];
 }

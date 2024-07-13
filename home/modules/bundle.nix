@@ -3,8 +3,9 @@
     ./git.nix
     ./htop.nix
     ./alacritty.nix
-    ./qt-gtk.nix
+    ./themeing.nix
 
+    ./wms/wofi.nix
     ./wms/hyprland.nix
     ./wms/hypridle.nix
     ./wms/hyprlock.nix

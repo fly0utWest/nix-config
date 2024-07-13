@@ -1,23 +1,7 @@
 {
-  description = "My system configuration";
+  description = "My system configuration flake";
 
-  inputs = {
-
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
-    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
-
-    home-manager = {
-      url = "github:nix-community/home-manager/release-24.05";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
-    solaar = {
-      url = "https://flakehub.com/f/Svenum/Solaar-Flake/*.tar.gz"; 
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-  };
-
-  outputs = { self, nixpkgs, nixpkgs-unstable, home-manager, solaar, ... }@inputs:
+  outputs = { self, nixpkgs, nixpkgs-unstable, home-manager, solaar, stylix, ... }@inputs:
 
     let
       system = "x86_64-linux";
@@ -40,7 +24,24 @@
 
     homeConfigurations.fly0utwest = home-manager.lib.homeManagerConfiguration {
       pkgs = nixpkgs.legacyPackages.${system};
-      modules = [ ./home/home.nix ];
+      modules = [ stylix.homeManagerModules.stylix ./home/home.nix ];
     };
+  };
+
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
+    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
+
+    home-manager = {
+      url = "github:nix-community/home-manager/release-24.05";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    solaar = {
+      url = "https://flakehub.com/f/Svenum/Solaar-Flake/*.tar.gz"; 
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    
+    stylix.url = "github:danth/stylix/release-24.05";
   };
 }

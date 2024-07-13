@@ -13,7 +13,6 @@
     kitty
     obs-studio
     rofi
-    wofi
     mpv
     vesktop
     gparted

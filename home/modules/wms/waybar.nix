@@ -5,7 +5,7 @@
       mainBar = {
         layer = "top";
         position = "top";
-        margin = "9 13 -10 18";
+        margin-bottom = -10;
 
         modules-left = ["hyprland/workspaces" "hyprland/language" "keyboard-state" "hyprland/submap"];
         modules-center = ["clock"];
@@ -143,7 +143,6 @@ window#waybar.hidden {
 
 #workspaces {
     margin-right: 8px;
-    border-radius: 10px;
     transition: none;
     background: #383c4a;
 }
@@ -178,7 +177,6 @@ window#waybar.hidden {
 #language {
     padding-left: 16px;
     padding-right: 8px;
-    border-radius: 10px 0px 0px 10px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -187,7 +185,6 @@ window#waybar.hidden {
 #keyboard-state {
     margin-right: 8px;
     padding-right: 16px;
-    border-radius: 0px 10px 10px 0px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -196,7 +193,6 @@ window#waybar.hidden {
 #custom-pacman {
     padding-left: 16px;
     padding-right: 8px;
-    border-radius: 10px 0px 0px 10px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -205,7 +201,6 @@ window#waybar.hidden {
 #custom-mail {
     margin-right: 8px;
     padding-right: 16px;
-    border-radius: 0px 10px 10px 0px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -214,7 +209,6 @@ window#waybar.hidden {
 #submap {
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -223,7 +217,6 @@ window#waybar.hidden {
 #clock {
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 10px;
     margin-right: 8px;
     transition: none;
     color: #ffffff;
@@ -232,7 +225,6 @@ window#waybar.hidden {
 
 #custom-weather {
     padding-right: 16px;
-    border-radius: 0px 10px 10px 0px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -242,7 +234,6 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -257,7 +248,6 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -267,7 +257,6 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -277,7 +266,6 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -291,7 +279,6 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -301,7 +288,6 @@ window#waybar.hidden {
     margin-right: 8px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #383c4a;
@@ -330,7 +316,6 @@ window#waybar.hidden {
 #tray {
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 10px;
     transition: none;
     color: #ffffff;
     background: #383c4a;

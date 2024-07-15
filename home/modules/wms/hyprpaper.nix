@@ -6,11 +6,9 @@
       ipc = "on";
       splash = false;
 
-      preload = [ "~/Downloads/Wallpapers/retro-anime.jpg" ];
+      preload = [ "~/nix/img/firewatch-nord.png" ];
 
-      wallpaper = [
-        ", ~/Downloads/Wallpapers/retro-anime.jpg"
-      ];
+      wallpaper = [ ", ~/nix/img/firewatch-nord.png" ];
     };
   };
 }

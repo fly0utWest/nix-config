@@ -12,7 +12,7 @@
 
       background = [
         {
-          path = "$HOME/Downloads/Wallpapers/retro-anime.jpg";
+          path = "/home/fly0utwest/nix/img/firewatch-nord.img";
           blur_passes = 3;
           blur_size = 8;
         }

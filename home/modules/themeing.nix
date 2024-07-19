@@ -26,4 +26,13 @@
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/nord.yaml";
   };
+
+  gtk = {
+    enable = true;
+    
+    iconTheme = {
+      name = "Papirus-Dark";
+      package = pkgs.papirus-nord;
+    };
+  };
 }

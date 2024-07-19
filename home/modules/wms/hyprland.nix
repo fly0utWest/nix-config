@@ -17,7 +17,7 @@
         "XDG_SESSION_DESKTOP,Hyprland"
         "XCURSOR_SIZE,24"
         "QT_QPA_PLATFORM,wayland"
-	"QT_QPA_PLATFORMTHEME,kde"
+	"QT_QPA_PLATFORMTHEME,qt5ct"
         "XDG_SCREENSHOTS_DIR,~/screens"
       ];
 

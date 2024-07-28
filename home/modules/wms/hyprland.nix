@@ -18,6 +18,7 @@
         "XCURSOR_SIZE,24"
         "QT_QPA_PLATFORM,wayland"
 	"QT_QPA_PLATFORMTHEME,qt5ct"
+	"GTK_THEME,adw-gtk3"
         "XDG_SCREENSHOTS_DIR,~/screens"
       ];
 
@@ -140,7 +141,7 @@
         "$mainMod, D, exec, wofi --show drun"
         "$mainMod, P, pseudo, # dwindle"
         "$mainMod, J, togglesplit, # dwindle"
-        "$mainMod, B, exec, firefox-devedition"
+        "$mainMod, B, exec, librewolf"
 
         # Move focus with mainMod + arrow keys
         "$mainMod, left,  movefocus, l"

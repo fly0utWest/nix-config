@@ -7,7 +7,7 @@
   environment.systemPackages = with pkgs; [
     # Desktop apps
     audacity
-    firefox-devedition
+    librewolf
     telegram-desktop
     alacritty
     kitty
@@ -28,6 +28,7 @@
     nodejs
     python
     (python3.withPackages (ps: with ps; [ requests ]))
+    jdk
 
     # CLI utils
     file
@@ -106,8 +107,8 @@
     spice-vdagent
     libsForQt5.qtstyleplugin-kvantum
     libsForQt5.qt5ct
-    papirus-nord
     vim
+    firebase-tools
     docker-compose
   ];
 
@@ -122,4 +123,3 @@
     (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
   ];
 }
-

@@ -15,5 +15,6 @@
     ./greetd.nix
     ./steam.nix
     ./systemd-resolved.nix
+    ./acpid.nix
   ];
 }

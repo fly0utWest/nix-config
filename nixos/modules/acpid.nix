@@ -1,0 +1,3 @@
+{
+  services.acpid.enable = true;
+}

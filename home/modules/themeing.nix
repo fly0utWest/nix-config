@@ -27,14 +27,23 @@
     base16Scheme = "${pkgs.base16-schemes}/share/themes/nord.yaml";
   };
 
+  dconf = {
+    enable = true;
+    settings = {
+      "org/gnome/desktop/interface" = {
+        color-scheme = "prefer-dark";
+      };
+    };
+  };
+
   gtk = {
     enable = true;
-    
+
     iconTheme = {
-      name = "Adwaita-Dark";
-      package = pkgs.gnome.adwaita-icon-theme;
+      name = "Papirus-Dark";
+      package = pkgs.papirus-nord;
     };
-    
+
     gtk3.extraConfig = {
       gtk-application-prefer-dark-theme=1;
     };

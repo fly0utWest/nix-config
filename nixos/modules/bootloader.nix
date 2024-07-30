@@ -2,7 +2,6 @@
 
   boot = {
     kernelPackages = pkgs.linuxPackages_zen;
-    kernelParams = [ "psmouse.synaptics_intertouch=0" ]; 
 
     loader = {
       efi = {

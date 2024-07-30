@@ -129,6 +129,11 @@
         "lxqt-policykit-agent"
       ];
 
+      bindl = [
+       ", switch:on:Lid Switch,exec,hyprctl keyword monitor \"eDP-1, disable\""
+       ", switch:off:Lid Switch,exec,hyprctl keyword monitor \"eDP-1, 1920x1200@60, auto, 1\""
+      ];
+
       bind = [
         "$mainMod, V, exec, cliphist list | wofi --dmenu | cliphist decode | wl-copy"
 

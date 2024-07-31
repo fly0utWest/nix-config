@@ -45,14 +45,11 @@
     lux
     mediainfo
     ranger
-    zram-generator
     cava
     zip
     ntfs3g
-    yt-dlp
     brightnessctl
     openssl
-    lazygit
     bluez
     bluez-tools
     openvpn

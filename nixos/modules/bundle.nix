@@ -16,5 +16,6 @@
     ./steam.nix
     ./systemd-resolved.nix
     ./acpid.nix
+    ./firmware.nix
   ];
 }

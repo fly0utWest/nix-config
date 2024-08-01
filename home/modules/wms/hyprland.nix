@@ -147,6 +147,7 @@
         "$mainMod, P, pseudo, # dwindle"
         "$mainMod, J, togglesplit, # dwindle"
         "$mainMod, B, exec, librewolf"
+        "$mainMod, C, exec, code"
 
         # Move focus with mainMod + arrow keys
         "$mainMod, left,  movefocus, l"

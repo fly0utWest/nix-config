@@ -8,6 +8,7 @@
     # Desktop apps
     audacity
     librewolf
+    chromium
     telegram-desktop
     alacritty
     kitty
@@ -41,7 +42,6 @@
     unzip
     scrot
     ffmpeg
-    light
     lux
     mediainfo
     ranger
@@ -86,11 +86,6 @@
     pipewire
     pulseaudio
     pamixer
-
-    # GPU stuff 
-    amdvlk
-    rocm-opencl-icd
-    glaxnimate
 
     # Screenshotting
     grim

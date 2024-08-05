@@ -23,8 +23,8 @@
     };
 
     "keyboard-state" = {
-        #numlock = true;
-        capslock = true;
+        numlock = true;
+        #capslock = true;
         format = "{icon} ";
         format-icons = {
             locked = " ";

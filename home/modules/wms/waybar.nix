@@ -9,7 +9,7 @@
 
         modules-left = ["hyprland/workspaces" "hyprland/language" "keyboard-state" "hyprland/submap"];
         modules-center = ["clock"];
-        modules-right = ["pulseaudio" "custom/mem" "cpu" "backlight" "battery" "tray"];
+        modules-right = ["idle_inhibitor" "pulseaudio" "custom/mem" "cpu" "backlight" "battery" "tray"];
 
         "hyprland/workspaces" = {
           disable-scroll = true;
@@ -36,6 +36,14 @@
         # timezone = "America/New_York";
         tooltip-format = "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>";
         format = "{:%a; %d %b, %I:%M %p}";
+    };
+
+    "idle_inhibitor" = {
+	"format" =  "{icon} ";
+	"format-icons" = {
+		"activated" = "  Idle off";
+		"deactivated" = "  Idle on";
+	};
     };
 
     "pulseaudio" = {
@@ -212,6 +220,20 @@ window#waybar.hidden {
     transition: none;
     color: #ffffff;
     background: #383c4a;
+}
+
+#idle_inhibitor {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 8px;
+    transition: none;
+    color: #ffffff;
+    background: #383c4a;
+}
+
+#idle_inhibitor.activated {
+    background-color: #90b1b1;
+    color: #2a5c45;
 }
 
 #clock {

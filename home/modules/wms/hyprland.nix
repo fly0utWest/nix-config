@@ -6,10 +6,10 @@
     settings = {
       "$mainMod" = "SUPER";
 
-      monitor = [
-        "eDP-1, 1920x1200@60, auto, 1"
-        "HDMI-A-1, 1920x1080@60, auto, 1"
-      ];
+#      monitor = [
+#        "eDP-1, 1920x1200@60, auto, 1"
+#        "HDMI-A-1, 1920x1080@60, auto, 1"
+#      ];
 
       env = [
         "XDG_CURRENT_DESKTOP,Hyprland"
@@ -127,11 +127,6 @@
         "wl-paste --type text --watch cliphist store"
         "wl-paste --type image --watch cliphist store"
         "lxqt-policykit-agent"
-      ];
-
-      bindl = [
-       ", switch:on:Lid Switch,exec,hyprctl keyword monitor \"eDP-1, disable\""
-       ", switch:off:Lid Switch,exec,hyprctl keyword monitor \"eDP-1, 1920x1200@60, auto, 1\""
       ];
 
       bind = [

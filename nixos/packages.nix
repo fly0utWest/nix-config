@@ -52,7 +52,7 @@
     openssl
     bluez
     bluez-tools
-    openvpn
+    wireguard-tools
 
     # GUI utils
     feh

@@ -13,5 +13,6 @@
     ./wms/waybar.nix
     ./wms/mako.nix
     ./wms/udiskie.nix
+    ./wms/kanshi.nix
   ];
 }

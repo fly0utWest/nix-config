@@ -1,3 +1,5 @@
+{ pkgs, ... }:
+
 {
   wayland.windowManager.hyprland = {
     enable = true;
@@ -17,7 +19,6 @@
         "XDG_SESSION_DESKTOP,Hyprland"
         "XCURSOR_SIZE,24"
         "QT_QPA_PLATFORM,wayland"
-	"QT_QPA_PLATFORMTHEME,qt5ct"
 	"GTK_THEME,adw-gtk3"
         "XDG_SCREENSHOTS_DIR,~/screens"
       ];
@@ -126,7 +127,7 @@
 	"blueman-tray"
         "wl-paste --type text --watch cliphist store"
         "wl-paste --type image --watch cliphist store"
-        "lxqt-policykit-agent"
+        "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1"
       ];
 
       bind = [

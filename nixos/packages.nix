@@ -16,6 +16,7 @@
     rofi
     mpv
     vesktop
+    vlc
     gparted
     zoom-us
     pcmanfm-qt
@@ -80,7 +81,6 @@
     seatd
     xdg-desktop-portal-hyprland
     waybar
-    lxqt.lxqt-policykit
 
     # Sound
     pipewire

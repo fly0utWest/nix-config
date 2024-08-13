@@ -16,5 +16,6 @@
     ./systemd-resolved.nix
     ./acpid.nix
     ./firmware.nix
+    ./auto-cpufreq.nix
   ];
 }

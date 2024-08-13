@@ -70,6 +70,7 @@
     #xterm
     #xclip
     xorg.xbacklight
+    xorg.xhost
 
     # Wayland stuff
     xwayland
@@ -101,6 +102,7 @@
     libsForQt5.qt5ct
     vim
     firebase-tools
+    auto-cpufreq
     docker-compose
   ];
 

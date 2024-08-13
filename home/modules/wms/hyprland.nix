@@ -18,7 +18,11 @@
         "XDG_SESSION_TYPE,wayland"
         "XDG_SESSION_DESKTOP,Hyprland"
         "XCURSOR_SIZE,24"
-        "QT_QPA_PLATFORM,wayland"
+        "QT_QPA_PLATFORM,wayland;xcb"
+        "QT_QPA_PLATFORMTHEME,qt5ct"
+        "QT_STYLE_OVERRIDE,kvantum"
+        "QT_WAYLAND_DISABLE_WINDOWDECORATION,1"
+	"GDK_BACKEND,wayland,x11"
 	"GTK_THEME,adw-gtk3"
         "XDG_SCREENSHOTS_DIR,~/screens"
       ];
@@ -128,6 +132,8 @@
         "wl-paste --type text --watch cliphist store"
         "wl-paste --type image --watch cliphist store"
         "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1"
+	"systemctl --user import-environment QT_QPA_PLATFORMTHEME WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
+	"dbus-update-activation-environment --systemd --all"
       ];
 
       bind = [

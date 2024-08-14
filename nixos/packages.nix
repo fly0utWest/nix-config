@@ -70,7 +70,6 @@
     #xterm
     #xclip
     xorg.xbacklight
-    xorg.xhost
 
     # Wayland stuff
     xwayland

@@ -12,13 +12,26 @@
     };
 
     fonts = {
-     monospace = {
-        package = pkgs.jetbrains-mono;
-        name = "JetBrains Mono";
+      monospace = {
+        package = pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; };
+        name = "JetBrainsMono Nerd Font Mono";
+      };
+
+      sansSerif = {
+        package = pkgs.montserrat;
+        name = "Montserrat";
+      };
+
+      serif = {
+        package = pkgs.montserrat;
+        name = "Montserrat";
       };
 
       sizes = {
-        terminal = 14;
+        applications = 12;
+        terminal = 15;
+        desktop = 11;
+        popups = 12;
       };
     };
 

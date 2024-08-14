@@ -16,22 +16,8 @@
         package = pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; };
         name = "JetBrainsMono Nerd Font Mono";
       };
-
-      sansSerif = {
-        package = pkgs.montserrat;
-        name = "Montserrat";
-      };
-
-      serif = {
-        package = pkgs.montserrat;
-        name = "Montserrat";
-      };
-
       sizes = {
-        applications = 12;
-        terminal = 15;
-        desktop = 11;
-        popups = 12;
+        terminal = 14;
       };
     };
 

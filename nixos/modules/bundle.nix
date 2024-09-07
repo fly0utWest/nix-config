@@ -4,19 +4,16 @@
     ./sound.nix
     ./env.nix
     ./user.nix
-    ./xserver.nix
     ./nm.nix
-    ./hyprland.nix
-    ./hyprlock.nix
     ./bluetooth.nix
     ./polkit.nix
     ./solaar.nix
     ./gvfs.nix
-    ./greetd.nix
-    ./systemd-resolved.nix
-    ./acpid.nix
     ./firmware.nix
-    ./keyring.nix
     ./auto-cpufreq.nix
+    ./kdeconnect.nix
+    ./systemd-resolved.nix
+    ./kde.nix
+    ./flatpak.nix
   ];
 }

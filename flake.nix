@@ -1,7 +1,7 @@
 {
   description = "My system configuration flake";
 
-  outputs = { self, nixpkgs, nixpkgs-unstable, home-manager, solaar, stylix, ... }@inputs:
+  outputs = { self, nixpkgs, nixpkgs-unstable, home-manager, plasma-manager, solaar, stylix, ... }@inputs:
 
     let
       system = "x86_64-linux";
@@ -24,7 +24,7 @@
 
     homeConfigurations.fly0utwest = home-manager.lib.homeManagerConfiguration {
       pkgs = nixpkgs.legacyPackages.${system};
-      modules = [ stylix.homeManagerModules.stylix ./home/home.nix ];
+      modules = [ stylix.homeManagerModules.stylix ./home/home.nix plasma-manager.homeManagerModules.plasma-manager];
     };
   };
 
@@ -43,5 +43,11 @@
     };
     
     stylix.url = "github:danth/stylix/release-24.05";
+
+    plasma-manager = {
+      url = "github:nix-community/plasma-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.home-manager.follows = "home-manager";
+    };
   };
 }

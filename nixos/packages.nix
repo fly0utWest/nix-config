@@ -8,18 +8,14 @@
     # Desktop apps
     audacity
     librewolf
+    tor-browser
     chromium
     telegram-desktop
-    alacritty
-    kitty
     obs-studio
-    rofi
-    mpv
     vesktop
     vlc
     gparted
     zoom-us
-    pcmanfm-qt
     vscode
     spotify
     qbittorrent
@@ -31,6 +27,7 @@
     python
     (python3.withPackages (ps: with ps; [ requests ]))
     jdk
+    go
 
     # CLI utils
     file
@@ -54,54 +51,32 @@
     bluez
     bluez-tools
     wireguard-tools
+    keepassxc
+    jq
+    appimage-run
+    tun2socks
+    nekoray
+
 
     # GUI utils
-    feh
-    imv
-    dmenu
     screenkey
-    mako
-    gromit-mpx
-    networkmanagerapplet
-    blueman
-    pavucontrol
-
-    # Xorg stuff
-    #xterm
-    #xclip
-    xorg.xbacklight
 
     # Wayland stuff
     xwayland
     wl-clipboard
     cliphist
 
-    # WMs and stuff
-    hyprland
-    seatd
-    xdg-desktop-portal-hyprland
-    waybar
-
     # Sound
     pipewire
     pulseaudio
     pamixer
 
-    # Screenshotting
-    grim
-    grimblast
-    slurp
-    flameshot
-    swappy
-
     # Other
     home-manager
-    spice-vdagent
     libsForQt5.qtstyleplugin-kvantum
     libsForQt5.qt5ct
     vim
     firebase-tools
-    auto-cpufreq
     docker-compose
   ];
 

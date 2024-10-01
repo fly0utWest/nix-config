@@ -11,7 +11,6 @@
     ./gvfs.nix
     ./firmware.nix
     ./auto-cpufreq.nix
-    ./kdeconnect.nix
     ./systemd-resolved.nix
     ./kde.nix
     ./flatpak.nix

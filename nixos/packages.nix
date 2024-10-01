@@ -73,8 +73,10 @@
 
     # Other
     home-manager
-    libsForQt5.qtstyleplugin-kvantum
+    kdePackages.qtstyleplugin-kvantum
     libsForQt5.qt5ct
+    kdePackages.qt6ct
+    kdePackages.kdeconnect-kde
     vim
     firebase-tools
     docker-compose

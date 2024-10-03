@@ -14,5 +14,6 @@
     ./systemd-resolved.nix
     ./kde.nix
     ./flatpak.nix
+    ./ssh.nix
   ];
 }

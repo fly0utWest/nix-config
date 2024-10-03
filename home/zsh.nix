@@ -27,5 +27,7 @@
       plugins = [ "git" ];
       theme = "agnoster";
     };
+  
+  initExtra = "ssh-add ~/.ssh/github";
   };
 }

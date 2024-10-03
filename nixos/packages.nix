@@ -25,7 +25,9 @@
     gcc
     nodejs
     python
-    (python3.withPackages (ps: with ps; [ requests ]))
+    (python3.withPackages (ps: with ps; [ requests pip django ]))
+    python312Packages.pip
+    python312Packages.django
     jdk
     go
 

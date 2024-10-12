@@ -4,7 +4,7 @@
 
     configFile = {
       "kwinrc"."org.kde.kdecoration2"."theme" = "Breeze";
-      "kdeglobals"."Icons"."Theme" = "Reversal-dark";
+      "kdeglobals"."Icons"."Theme" = "Papirus-Dark";
       "kxkbrc"."Layout"."LayoutList" = "us,ru";
       "kxkbrc"."Layout"."Options" = "terminate:ctrl_alt_bksp,grp:caps_toggle";
       "kwinrc"."Desktops"."Number" = 2;

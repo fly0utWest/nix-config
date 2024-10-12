@@ -40,6 +40,7 @@
     htop
     nix-index
     unzip
+    unrar
     scrot
     ffmpeg
     lux

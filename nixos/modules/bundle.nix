@@ -15,5 +15,7 @@
     ./kde.nix
     ./flatpak.nix
     ./ssh.nix
+    ./virtualization.nix
+    ./postgre.nix
   ];
 }

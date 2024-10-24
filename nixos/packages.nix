@@ -13,12 +13,13 @@
     telegram-desktop
     obs-studio
     vesktop
-    vlc
+    mpv
     gparted
     zoom-us
     vscode
     spotify
     qbittorrent
+    gimp
 
     # Coding stuff
     gnumake
@@ -83,6 +84,9 @@
     vim
     firebase-tools
     docker-compose
+    docker
+    postman
+    pgadmin4
   ];
 
   fonts.packages = with pkgs; [

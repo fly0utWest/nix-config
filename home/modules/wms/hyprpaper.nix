@@ -6,9 +6,9 @@
       ipc = "on";
       splash = false;
 
-      preload = [ "~/nix/img/firewatch-nord.png" ];
+      preload = [ "~/nix/img/glungus.jpg" ];
 
-      wallpaper = [ ", ~/nix/img/firewatch-nord.png" ];
+      wallpaper = [ ", ~/nix/img/glungus.jpg" ];
     };
   };
 }

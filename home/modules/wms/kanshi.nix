@@ -20,7 +20,7 @@
         profile.outputs = [
           {
             criteria = "HDMI-A-1";
-            mode = "1920x1080@60Hz";
+            mode = "1920x1080";
             position = "1920,0"; 
           }
 

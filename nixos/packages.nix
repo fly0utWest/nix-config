@@ -1,13 +1,12 @@
 { pkgs, ... }: {
   nixpkgs.config = {
     allowUnfree = true;
-    permittedInsecurePackages = ["python-2.7.18.8" "electron-25.9.0"];
+    permittedInsecurePackages = ["python-2.7.18.8" "qbittorrent-4.6.4" "electron-25.9.0"];
   };
 
   environment.systemPackages = with pkgs; [
     # Desktop apps
     audacity
-    librewolf
     chromium
     telegram-desktop
     alacritty
@@ -16,13 +15,14 @@
     rofi
     mpv
     vesktop
-    vlc
     gparted
     zoom-us
     pcmanfm-qt
     vscode
     spotify
     qbittorrent
+    nekoray
+    keepassxc
 
     # Coding stuff
     gnumake
@@ -102,6 +102,7 @@
     vim
     firebase-tools
     auto-cpufreq
+    docker
     docker-compose
   ];
 

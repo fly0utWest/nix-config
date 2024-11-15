@@ -126,7 +126,7 @@
         "mako"
         "udiskie"
         "nm-applet"
-        "solaar -w hide"
+        "solaar --window=hide"
         "blueman-applet"
 	"blueman-tray"
         "wl-paste --type text --watch cliphist store"
@@ -148,7 +148,7 @@
         "$mainMod, D, exec, wofi --show drun"
         "$mainMod, P, pseudo, # dwindle"
         "$mainMod, J, togglesplit, # dwindle"
-        "$mainMod, B, exec, librewolf"
+        "$mainMod, B, exec, chromium"
         "$mainMod, C, exec, code"
 
         # Move focus with mainMod + arrow keys

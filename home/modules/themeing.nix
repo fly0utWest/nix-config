@@ -21,7 +21,7 @@
       };
     };
 
-    image = /home/fly0utwest/nix/img/firewatch-nord.png;
+    image = /home/fly0utwest/nix/img/glungus.jpg;
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/nord.yaml";
   };

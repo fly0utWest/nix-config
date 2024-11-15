@@ -18,5 +18,6 @@
     ./firmware.nix
     ./keyring.nix
     ./auto-cpufreq.nix
+    ./docker.nix
   ];
 }

@@ -126,7 +126,6 @@
         "mako"
         "udiskie"
         "nm-applet"
-        "solaar --window=hide"
         "blueman-applet"
 	"blueman-tray"
         "wl-paste --type text --watch cliphist store"

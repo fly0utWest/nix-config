@@ -11,6 +11,7 @@
     telegram-desktop
     alacritty
     kitty
+    alacritty
     obs-studio
     rofi
     mpv
@@ -23,7 +24,7 @@
     qbittorrent
     nekoray
     keepassxc
-
+    appimage-run
     # Coding stuff
     gnumake
     gcc
@@ -104,6 +105,8 @@
     auto-cpufreq
     docker
     docker-compose
+    pgadmin4-desktopmode
+    postgresql
   ];
 
   fonts.packages = with pkgs; [

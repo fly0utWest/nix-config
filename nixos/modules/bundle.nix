@@ -19,5 +19,7 @@
     ./keyring.nix
     ./auto-cpufreq.nix
     ./docker.nix
+    ./ssh.nix
+    ./tmux.nix
   ];
 }

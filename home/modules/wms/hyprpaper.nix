@@ -6,9 +6,9 @@
       ipc = "on";
       splash = false;
 
-      preload = [ "~/nix/img/glungus.jpg" ];
+      preload = [ "~/nix/img/fsp.jpg" ];
 
-      wallpaper = [ ", ~/nix/img/glungus.jpg" ];
+      wallpaper = [ ", ~/nix/img/fsp.jpg" ];
     };
   };
 }

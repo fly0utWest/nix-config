@@ -21,7 +21,7 @@
       };
     };
 
-    image = /home/fly0utwest/nix/img/glungus.jpg;
+    image = /home/fly0utwest/nix/img/fsp.jpg;
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/nord.yaml";
   };

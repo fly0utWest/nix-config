@@ -3,7 +3,8 @@
     ./git.nix
     ./htop.nix
     ./alacritty.nix
-    ./themeing.nix
+    ./theming.nix
+    ./kdeconnect.nix
 
     ./wms/wofi.nix
     ./wms/hyprland.nix

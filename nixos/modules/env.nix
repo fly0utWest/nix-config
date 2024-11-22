@@ -2,7 +2,7 @@
   environment.variables = {
     EDITOR = "vim";
     RANGER_LOAD_DEFAULT_RC = "FALSE";
-    BROWSER = "chromium";
+    BROWSER = "firefox-developer-edition";
     GSETTINGS_BACKEND = "dconf";
   };
 }

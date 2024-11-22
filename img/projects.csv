@@ -1,0 +1,3 @@
+"id","name","description","descriptionru","link","releasedat","screenshot"
+1,"Bookmarked","My graduation project - fullstack letterboxd-like cinematic platform for tracking watched media history. Wrote in Spring, React/TS, SASS","Мой выпускной проект - фуллстэк платформа в стиле Letterboxd для отслеживания просмотренных медиа. Написан на Spring, React/TS, SASS","https://github.com/fly0utWest/bookmarked-classified?tab=readme-ov-file","2024-01-13 00:00:00+00","bookmarked.jpeg"
+2,"aiELTS","Educational app for IELTS exam preparation, written in Go and Svelte","Образовательное приложение для подготовки к IELTS, написано на Go и Svelte","https://aielts.ru/","2024-07-12 00:00:00+00","aielts.png"

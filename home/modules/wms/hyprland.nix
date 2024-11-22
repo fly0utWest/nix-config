@@ -147,7 +147,7 @@
         "$mainMod, D, exec, wofi --show drun"
         "$mainMod, P, pseudo, # dwindle"
         "$mainMod, J, togglesplit, # dwindle"
-        "$mainMod, B, exec, chromium"
+        "$mainMod, B, exec, firefox-developer-edition"
         "$mainMod, C, exec, code"
 
         # Move focus with mainMod + arrow keys

@@ -8,6 +8,7 @@
     # Desktop apps
     audacity
     chromium
+    firefox-devedition-bin
     telegram-desktop
     alacritty
     kitty
